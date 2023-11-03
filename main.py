@@ -46,7 +46,7 @@ text = font.render('Game over', True, (0, 0, 255), (255, 255, 0))
 textRect = text.get_rect()
 textRect.center = (screen_width // 2, screen_height // 2)
 
-text2 = font.render('You won all terrorist are dead!', True, (0, 0, 255), (255, 255, 0))
+text2 = font.render('Good job! You eliminated all the terrorists.', True, (0, 0, 255), (255, 255, 0))
 text2Rect = text2.get_rect()
 text2Rect.center = (screen_width // 2, screen_height // 2)
 
